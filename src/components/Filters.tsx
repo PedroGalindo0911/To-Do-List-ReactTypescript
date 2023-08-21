@@ -1,5 +1,5 @@
-import { TODO_FILTERS } from '../consts.js'
-import { type FilterValue } from '../types.js'
+import { TODO_FILTERS } from '../consts'
+import { type FilterValue } from '../types'
 
 const FILTERS_BUTTONS = {
   [TODO_FILTERS.ALL]: { literal: 'Todos', href: `/?filter=${TODO_FILTERS.ALL}` },
